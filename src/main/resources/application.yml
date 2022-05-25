@@ -1,0 +1,10 @@
+service-name: ejay.bgrande@gmail.com
+
+mailgun:
+  api: https://api.mailgun.net/v3/sandboxe7b34175e1ea4f34b1ad8cf96815b182.mailgun.org/messages
+  user: api
+  apikey: # insert your own key
+
+sendgrid:
+  api: https://api.sendgrid.com/api/mail.send.json
+  apikey: # insert your own key
