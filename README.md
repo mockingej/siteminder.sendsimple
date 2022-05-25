@@ -5,6 +5,7 @@ if it's successful it would return a (200) successful response. If not, it would
 If all email providers are somehow unavailable, it would return a 500 internal server error, including a message.
 
 Environment: JDK 11
+Framework: Spring Framework, Boot.
 
 How to run:
 
