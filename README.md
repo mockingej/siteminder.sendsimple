@@ -15,4 +15,4 @@ How to run:
 
 Please note that apikeys for SendGrid and MailGun were excluded for security purposes.
 Kindly provide your own apikeys for SendGrid and Mailgun. You should also replace the api for mailgun as it requires a 
-domain which is generated for sandbox.
+domain which is generated for sandbox testing.
