@@ -1,6 +1,8 @@
 # SiteMinder SendSimple Application
-Overview: A REST api application whose function is to send email/s to recipient/s using one or more email providers.
-In this current configuration, there are two email providers (MailGun and SendGrid).
+Overview: A REST api application whose function is to send email/s to recipient/s using an email provider.
+In this current setup, there are two email providers (MailGun and SendGrid). It would first try the first email provider service; 
+if it's successful it would return a (200) successful response, it would switch to another email provider. 
+If all email providers are somehow unavailable, it would return a 500 internal server error, including a message.
 
 Environment: JDK 11
 
